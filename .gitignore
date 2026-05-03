@@ -1,0 +1,50 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Logs / temp / caches
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+build/
+
+# Local environment
+.venv/
+venv/
+env/
+.python-version
+
+# Secrets and credentials: never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*secret*
+*token*
+*credential*
+*credentials*
+*password*
+*passwd*
+*cookie*
+*cookies*
+config.local.*
+
+# Local exports and backups can contain private data
+backup/
+exports/private/
+archive/private/
